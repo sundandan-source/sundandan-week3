@@ -1,10 +1,9 @@
 <template>
 <div>
+    3333
     <ul>
-        1111
         <li v-for="(item,index) in list" :key="index">
             <img :src="item.img" alt="">
-
         </li>
     </ul>
 </div>
